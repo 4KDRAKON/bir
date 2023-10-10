@@ -1,0 +1,36 @@
+.gran{
+    & .container{
+        background-image: url("../image/Group13.png");
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 1111px;
+        height: 196px;
+    }
+
+    &__list{
+        display: flex;
+        margin-top: 50px;
+    }
+
+    &__item{
+        margin-top: 150px;
+        
+    }
+}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+   .gran .container{
+    background-image: url("../image/Group13@2x.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 1111px;
+    height: 196px;
+   }
+}
